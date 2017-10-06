@@ -1,0 +1,98 @@
+{
+	{
+		"vehicleID": "003",
+		"flightID": "T01"
+		"departureTime": "8:00",
+		"arrivalTime": "9:15",
+		"base": "YVR",
+		"dest": "YPR"
+	},
+		{
+		"vehicleID": "003",
+		"flightID": "T02"
+		"departureTime": "9:45",
+		"arrivalTime": "11:00",
+		"base": "YPR",
+		"dest": "YVR"
+	},
+	{
+		"vehicleID": "002",
+		"flightID": "T03"
+		"departureTime": "8:30",
+		"arrivalTime": "9:30",
+		"base": "YVR",
+		"dest": "YXS"
+	},
+		{
+		"vehicleID": "002",
+		"flightID": "T04"
+		"departureTime": "10:30",
+		"arrivalTime": "11:30",
+		"base": "YXS",
+		"dest": "YVR"
+	}
+	{
+		"vehicleID": "001",
+		"flightID": "T05"
+		"departureTime": "9:00",
+		"arrivalTime": "10:30",
+		"base": "YVR",
+		"dest": "YXC"
+	},
+	{
+		"vehicleID": "001",
+		"flightID": "T06"
+		"departureTime": "11:00",
+		"arrivalTime": "12:30",
+		"base": "YXC",
+		"dest": "YVR"
+	}
+	{
+		"vehicleID": "004",
+		"flightID": "T07"
+		"departureTime": "14:00",
+		"arrivalTime": "16:30",
+		"base": "YVR",
+		"dest": "YPR"
+	},
+		{
+		"vehicleID": "004",
+		"flightID": "T08"
+		"departureTime": "17:00",
+		"arrivalTime": "19:30",
+		"base": "YPR",
+		"dest": "YVR"
+	},
+	{
+		"vehicleID": "003",
+		"flightID": "T09"
+		"departureTime": "13:00",
+		"arrivalTime": "14:00",
+		"base": "YVR",
+		"dest": "YXS"
+	},
+		{
+		"vehicleID": "003",
+		"flightID": "T10"
+		"departureTime": "14:30",
+		"arrivalTime": "15:30",
+		"base": "YXS",
+		"dest": "YVR"
+	}
+	{
+		"vehicleID": "002",
+		"flightID": "T11"
+		"departureTime": "13:30",
+		"arrivalTime": "13:45",
+		"base": "YVR",
+		"dest": "YXC"
+	},
+	{
+		"vehicleID": "002",
+		"flightID": "T12"
+		"departureTime": "14:15",
+		"arrivalTime": "15:30",
+		"base": "YXC",
+		"dest": "YVR"
+	}	
+}
