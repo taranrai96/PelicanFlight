@@ -1,4 +1,7 @@
 <?php
+
+/*This is a controller that responds a list of plans as json notation*/
+
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Fleet extends CI_Controller
@@ -9,14 +12,12 @@ class Fleet extends CI_Controller
 		parent::__construct();
 	}
 
-	/**
-	 * Homepage for our app
-	 */
+    //this is a defualt method when this controller is get called 
 	public function index()
 	{
 		$record = $this->fleets->all();
 		header("Content-type: application/json");
 		echo json_encode($record);
 }
-	//contributed by nelson
+
 }

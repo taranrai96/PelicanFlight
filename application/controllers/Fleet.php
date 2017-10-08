@@ -1,5 +1,8 @@
 <?php
 
+/*This is a controller that defines the view being dispay and pass
+data to that review*/
+
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Fleet extends Application
@@ -10,24 +13,13 @@ class Fleet extends Application
 		parent::__construct();
 	}
 
-	/**
-	 * Index Page for this controller.
-	 *
-	 * Maps to the following URL
-	 * 		http://example.com/
-	 * 	- or -
-	 * 		http://example.com/welcome/index
-	 *
-	 * So any other public methods not prefixed with an underscore will
-	 * map to /welcome/<method_name>
-	 * @see https://codeigniter.com/user_guide/general/urls.html
-	 */
+
 	public function index()
 	{
 		// this is the view we want shown
 		$this->data['pagebody'] = 'fleet';
 		
-		// build the list of airplanes, to pass on to our view
+		// build the list of plans, to pass on to our view
 		$source = $this->fleets->all();
 
 		// pass on the data to present, as the "vehicles" view parameter
