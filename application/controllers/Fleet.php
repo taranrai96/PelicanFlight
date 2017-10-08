@@ -22,8 +22,8 @@ class Fleet extends Application
 		// build the list of plans, to pass on to our view
 		$source = $this->fleets->all();
 
-		// pass on the data to present, as the "vehicles" view parameter
-		$this->data['vehicles'] = $source;	
+		// pass on the data to present, as the "airplanes" view parameter
+		$this->data['airplanes'] = $source;	
 		
 		$this->render(); 
 	}
@@ -34,13 +34,13 @@ class Fleet extends Application
     public function show($key)
     {		
 		// this is the view we want shown
-		$this->data['pagebody'] = 'fleet';
+		$this->data['pagebody'] = 'airplane';
 
-		// build the list of airplanes, to pass on to our view
-		$source = $this->airplane->get($key);
+		// build the list of plans, to pass on to our view
+		$source = $this->fleets->get($key);
 
-		// pass on the data to present, as the "vehicles" view parameter
-		$this->data['vehicles'] = $source;
+		// pass on the data to present, as the "airplanes" view parameter
+		$this->data['airplanes'] = $source;
 		
 		// pass on the data to present, adding the author record's fields
 		$this->data = array_merge($this->data, (array) $source);
