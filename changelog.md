@@ -62,3 +62,11 @@ Release Date: Oct 07, 2017(Judy Zhu)
 Release Date: Oct 08, 2017(Judy Zhu)
 
 - Modified view welcome: added links to display info JSON objects
+
+## Version 0.0.7
+
+Release Date: Oct 08, 2017(Taran Rai)
+
+- Patched up the "Flight" link in Welcome.php (Homepage)
+- Changed the page title from CodeIgniter default to "Pelican Flights"
+
