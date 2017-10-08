@@ -11,18 +11,6 @@ Team membership:
 Team conventions: Allman notation, markdown for changelog  
 Changelog format: [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) 
 
-
-## Version 0.0.2
-
-Release Date: Oct 07, 2017(Nelson Guo)
-
-- Added controller fleet
-- Added controller flight
-- Added controller welcome
-- Added controller info and subcontrollers
-- Added comments
-
-
 ## Version 0.0.1
 
 Release Date: Oct 05, 2017
@@ -32,7 +20,6 @@ Release Date: Oct 05, 2017
 - Added CodeIgniter3.1-starter3 (Link: https://github.com/jedi-academy/CodeIgniter3.1-starter3)
 - Added Issues to the Issue List
 
-<<<<<<< HEAD
 ## Version 0.0.2
 
 Release Date: Oct 06, 2017
@@ -47,7 +34,26 @@ Release Date: Oct 07, 2017
 - Created models (Fleets.php and Flights.php)
 - Updated changelog.md
 
+## Version 0.0.4
 
-=======
->>>>>>> newFeature
+Release Date: Oct 07, 2017(Nelson Guo)
+
+- Added controller fleet
+- Added controller flight
+- Added controller welcome
+- Added controller info and subcontrollers
+- Added comments
+
+## Version 0.0.5
+
+Release Date: Oct 07, 2017(Judy Zhu)
+
+- Added view airplane
+- Added view fleet
+- Added view flight
+- Added view template
+- Added view welcome
+- Modified controller fleet
+- Added css bootstrap files (bootstrap.min.css and bootstrap-responsive.min.css)
+- Added css style
 
