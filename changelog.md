@@ -57,3 +57,8 @@ Release Date: Oct 07, 2017(Judy Zhu)
 - Added css bootstrap files (bootstrap.min.css and bootstrap-responsive.min.css)
 - Added css style
 
+## Version 0.0.6
+
+Release Date: Oct 08, 2017(Judy Zhu)
+
+- Modified view welcome: added links to display info JSON objects
