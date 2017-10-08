@@ -13,7 +13,7 @@ Changelog format: [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdo
 
 ## Version 0.0.1
 
-Release Date: Oct 05, 2017
+Release Date: Oct 05, 2017 (Taran Rai)
 
 - Initialized the repository
 - Added changelog.md
@@ -22,14 +22,14 @@ Release Date: Oct 05, 2017
 
 ## Version 0.0.2
 
-Release Date: Oct 06, 2017
+Release Date: Oct 06, 2017 (Benjamin Wang)
 
 - Created data files (Fleet.txt and Flights.txt)
 - Updated changelog.md
 
 ## Version 0.0.3
 
-Release Date: Oct 07, 2017
+Release Date: Oct 07, 2017 (Chris Kwon)
 
 - Created models (Fleets.php and Flights.php)
 - Updated changelog.md
@@ -75,4 +75,15 @@ Release Date: Oct 08, 2017(Taran Rai)
 Release Date: Oct 08, 2017(Taran Rai)
 
 - Updating routes.php for the Fleet and Flight Homepage links
+
+## Version 0.0.9
+
+Release Date: Oct 08, 2017(Chris Kwon)
+
+- Created target links
+- Updated routes.php with routing rules
+- Combined index() methods from Fleets.php and Flights.php controllers into Info.php
+- Updated Welcome.php to display json data
+
+
 
