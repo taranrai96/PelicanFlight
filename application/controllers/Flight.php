@@ -2,9 +2,14 @@
 
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Welcome extends Application
+class Flight extends Application
 {
 
+	function __construct()
+	{
+		parent::__construct();
+	}
+	
 	/**
 	 * Index Page for this controller.
 	 *
@@ -19,15 +24,14 @@ class Welcome extends Application
 	 */
 	public function index()
 	{
-		$this->data['pagebody'] = 'welcome';
+		// this is the view we want shown
+		$this->data['pagebody'] = 'flight';
 		
-		// build the list of airplanes, to pass on to our view
-		$numPlane = $this->fleets->getCount();
-		$numFlight = $this->flights->getCount();
-		
-		// pass on the data to present, as the "numOfplane" view parameter
-		$this->data['numOfplane'] = $numPlane;
-		$this->data['numOfflight'] = $numFlight;
+		// build the list of authors, to pass on to our view
+		$source = $this->flights->all();
+
+		// pass on the data to present, as the "authors" view parameter
+		$this->data['trip'] = $source;	
 		
 		$this->render(); 
 	}
