@@ -1,0 +1,60 @@
+[AirBase]
+
+    {
+        "id": "pelican",
+        "base": "YVR",
+        "dest1": "YPR",
+        "dest2": "YXS",
+        "dest3": "YXC"
+    }	
+	
+	
+[Airplanes]
+   {
+	"vehicleID": "001",
+        "id": "baron",
+        "manufacturer": "Beechcraft",
+        "model": "Baron",
+        "price": "1350",
+        "seats": "4",
+        "reach": "1948",
+        "cruise": "373",
+        "takeoff": "701",
+        "hourly": "340"
+    },
+    {
+	"vehicleID": "002",
+        "id": "mustang",
+        "manufacturer": "Cessna",
+        "model": "Citation Mustang",
+        "price": "2770",
+        "seats": "4",
+        "reach": "2130",
+        "cruise": "630",
+        "takeoff": "950",
+        "hourly": "1015"
+    },
+    {
+	"vehicleID": "003",
+        "id": "citation",
+        "manufacturer": "Cessna",
+        "model": "Citation M2",
+        "price": "3200",
+        "seats": "7",
+        "reach": "1550",
+        "cruise": "748",
+        "takeoff": "978",
+        "hourly": "1122"
+    },
+    {
+	"vehicleID": "004",
+        "id": "caravan",
+        "manufacturer": "Cessna",
+        "model": "Grand Caravan EX",
+        "price": "2300",
+        "seats": "14",
+        "reach": "1689",
+        "cruise": "340",
+        "takeoff": "660",
+        "hourly": "389"
+    }
