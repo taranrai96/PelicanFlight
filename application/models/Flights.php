@@ -7,7 +7,9 @@
  *
  * @author chris
  */
-class Flight extends CI_Model
+
+class Flights extends CI_Model
+
 {
 
 	var $data = array(
