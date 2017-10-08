@@ -70,3 +70,9 @@ Release Date: Oct 08, 2017(Taran Rai)
 - Patched up the "Flight" link in Welcome.php (Homepage)
 - Changed the page title from CodeIgniter default to "Pelican Flights"
 
+## Version 0.0.8
+
+Release Date: Oct 08, 2017(Taran Rai)
+
+- Updating routes.php for the Fleet and Flight Homepage links
+
