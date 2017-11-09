@@ -8,7 +8,7 @@
  * @author chris
  */
 
-class Fleets extends CI_Model
+class Fleet_model extends CI_Model
 
 {
 

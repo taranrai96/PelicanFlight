@@ -8,7 +8,7 @@
  * @author chris
  */
 
-class Flights extends CI_Model
+class Flight_model extends CI_Model
 
 {
 
@@ -43,7 +43,10 @@ class Flights extends CI_Model
 		'10' => array('vehicleID'	=> '003', 'FlightID'	=> 'T10',
 			'departureTime'	 => '14:30', 'arrivalTime'	=> '15:30', 'base'	=> 'YXS',
 			'dest'	=> 'YVR'),
-		'11' => array('vehicleID'	=> '002', 'FlightID'	=> 'T12',
+		'11' => array('vehicleID'	=> '002', 'FlightID'	=> 'T11',
+			'departureTime'	 => '13:30', 'arrivalTime'	=> '13:45', 'base'	=> 'YVR',
+			'dest'	=> 'YXC'),
+		'12' => array('vehicleID'	=> '002', 'FlightID'	=> 'T12',
 			'departureTime'	 => '14:15', 'arrivalTime'	=> '15:30', 'base'	=> 'YXC',
 			'dest'	=> 'YVR')
 

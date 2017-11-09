@@ -20,7 +20,7 @@ class Fleet extends Application
 		$this->data['pagebody'] = 'fleet';
 		
 		// build the list of plans, to pass on to our view
-		$source = $this->fleets->all();
+		$source = $this->fleet_model->all();
 
 		// pass on the data to present, as the "airplanes" view parameter
 		$this->data['airplanes'] = $source;	
@@ -36,8 +36,8 @@ class Fleet extends Application
 		// this is the view we want shown
 		$this->data['pagebody'] = 'airplane';
 
-		// build the list of plans, to pass on to our view
-		$source = $this->fleets->get($key);
+		// build the list of planes, to pass on to our view
+		$source = $this->fleet_model->get($key);
 
 		// pass on the data to present, as the "airplanes" view parameter
 		$this->data['airplanes'] = $source;
