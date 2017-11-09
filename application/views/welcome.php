@@ -16,8 +16,8 @@
 	</div>
 	<div>
 		<h4>Info JSON format</h4>
-		<li type="circle"><a href="/info/fleetjson">Fleet</a></li>
-		<li type="circle"><a href="/info/flightjson">Flight</a></li>
+		<li type="circle"><a href="/info/fleet">Fleet</a></li>
+		<li type="circle"><a href="/info/flights">Flight</a></li>
 	</div>
 </div>
 

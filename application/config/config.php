@@ -5,9 +5,9 @@ $config['menu_choices'] = array(
     'menudata' => array(
         array('name' => 'Home', 'link' => '/'),
         array('name' => 'Fleet', 'link' => '/fleet'),
-        array('name' => 'Flight', 'link' => '/flight'),
-		array('name' => 'FleetJson', 'link' => '/fleetjson'),
-		array('name' => 'FlightJson', 'link' => '/flightjson'),
+        array('name' => 'Flight', 'link' => '/flights'),
+		array('name' => 'FleetJson', 'link' => '/info/fleet'),
+		array('name' => 'FlightJson', 'link' => '/info/flights'),
     )
 );
 /*

@@ -3,7 +3,7 @@
 data to that review*/
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Flight extends Application
+class Flights extends Application
 {
 
 	function __construct()
@@ -17,7 +17,7 @@ class Flight extends Application
 		$this->data['pagebody'] = 'flight';
 		
 		// build the list of authors, to pass on to our view
-		$source = $this->flights->all();
+		$source = $this->flight_model->all();
 
 		// pass on the data to present
 		$this->data['trip'] = $source;	

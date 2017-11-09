@@ -11,7 +11,7 @@ class Info extends CI_Controller
     //function that returns json information about fleets 
 	public function fleets_info()
 	{
-		$record = $this->fleets->all();
+		$record = $this->fleet_model->all();
 		header("Content-type: application/json");
 		echo json_encode($record);
 }
@@ -19,7 +19,7 @@ class Info extends CI_Controller
 	//function that returns json information about flights
 	public function flights_info()
 	{
-		$record = $this->flights->all();
+		$record = $this->flight_model->all();
 		header("Content-type: application/json");
 		echo json_encode($record);
 }

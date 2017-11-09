@@ -85,5 +85,10 @@ Release Date: Oct 08, 2017(Chris Kwon)
 - Combined index() methods from Fleets.php and Flights.php controllers into Info.php
 - Updated Welcome.php to display json data
 
+## Version 0.1.0 (Assignment 2 start)
 
+Release Date: Nov 09, 2017(Taran Rai)
+
+- Fixed web application according to the feedback provided
+- Updated changelog.md
 
