@@ -92,3 +92,11 @@ Release Date: Nov 09, 2017(Taran Rai)
 - Fixed web application according to the feedback provided
 - Updated changelog.md
 
+## Version 0.1.1
+
+Release Date: November 9, 2017(Benjamin Wang)
+
+- Added fleet.csv and flights.csv files
+- Updated changelog.md
+
+
