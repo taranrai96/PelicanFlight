@@ -99,4 +99,17 @@ Release Date: November 9, 2017(Benjamin Wang)
 - Added fleet.csv and flights.csv files
 - Updated changelog.md
 
+## Version 0.1.2
+
+Release Date: November 11, 2017(Chris Kwon)
+
+- Updated Fleet_Model.php and Flight_Model.php to retrieve data from CSV files
+- Updated Welcome.php to retrieve numPlane and numFlight
+- Created API_Model.php to retrieve live data from WACKY Server
+- Added CSV_Model.php, DataMapper.php, Entity.php, Memory_Model.php, RDB_Model.php in core folder
+- Added _menubar.php in views folder
+- Patch needed in fleet page to display the Vehicle Information for selected VehicleID
+- Updated changelog.md
+
+
 
