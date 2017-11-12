@@ -18,24 +18,4 @@ class Fleet_model extends CSV_Model
 		
 	}
 
-	/**
-	// retrieve a single fleet, null if not found
-	public function get($which)
-	{
-		return !isset($this->data[$which]) ? null : $this->data[$which];
-	}
-
-	// retrieve all of the fleets
-	public function all()
-	{
-		return $this->data;
-	}
-	
-	// retrive total number of fleets
-	public function getCount()
-	{
-		return count($this->data);
-	}
-	**/
-
 }
