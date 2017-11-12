@@ -28,16 +28,13 @@ class Fleet extends Application
 		$this->render(); 
 	}
 	
-	/**
-     * Show just one airplane
-     */
     public function show($key)
     {		
 		// this is the view we want shown
 		$this->data['pagebody'] = 'airplane';
 
 		// build the list of planes, to pass on to our view
-		$source = $this->fleet_model->get($key);
+		$source = $this->fleet_model->get($key, NULL);
 
 		// pass on the data to present, as the "airplanes" view parameter
 		$this->data['airplanes'] = $source;
@@ -47,4 +44,5 @@ class Fleet extends Application
 
 		$this->render();
     }
+
 }
