@@ -142,7 +142,23 @@ Release Date: November 12, 2017(Chris Kwon)
 - Added Flight Maintenance Page
 - Updated changelog.md
 
+## Version 0.1.6
+Release Date: November 12, 2017(Benjamin Wang)
+
+- Added Flight search page
+- Updated changelog.md
 
 
+## Version 0.1.7
+Release Date: November 12, 2017(Judy Zhu)
+
+- Updated application/config/config.php
+- Added application/models/Fleet.php
+- Added application/models/Flight.php
+- Added application/tests/*
+- Added .gitignore
+- Added .travis.yml
+- Added phpunit.xml.dist
+- Updated changelog.md
 
 
