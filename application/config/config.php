@@ -8,7 +8,8 @@ $config['menu_choices'] = array(
         array('name' => 'Flight', 'link' => '/flights'),
 		array('name' => 'FleetJson', 'link' => '/info/fleet'),
 		array('name' => 'FlightJson', 'link' => '/info/flights'),
-		array('name' => 'Maintenance', 'link' => '/mtce'),
+		array('name' => 'Maintenance(Fleet)', 'link' => '/mtceFleet'),
+		array('name' => 'Maintenance(Flight)', 'link' => '/mtceFlight')
     )
 );
 /*
