@@ -142,6 +142,11 @@ Release Date: November 12, 2017(Chris Kwon)
 - Added Flight Maintenance Page
 - Updated changelog.md
 
+## Version 0.1.6
+Release Date: November 12, 2017(Benjamin Wang)
+
+- Added Flight search page
+- Updated changelog.md
 
 
 
