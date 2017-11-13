@@ -11,8 +11,8 @@ class Welcome extends Application
 		$this->data['pagebody'] = 'welcome';
 		
 		//pass on the data to present, to pass on to our view
-		$numPlane = $this->fleets->getCount();
-		$numFlight = $this->flights->getCount();
+		$numPlane = $this->fleet_model->size();
+		$numFlight = $this->flight_model->size();
 		
 		// pass on the data to present, as the "numOfplane" view parameter
 		$this->data['numOfplane'] = $numPlane;

@@ -50,7 +50,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |		my-controller/my-method	-> my_controller/my_method
 */
 $route['default_controller'] = 'welcome';
-$route['info/fleetjson'] = 'info/fleets_Info';
-$route['info/flightjson'] = 'info/flights_Info';
+$route['info/fleet'] = 'info/fleets_Info';
+$route['info/flights'] = 'info/flights_Info';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;

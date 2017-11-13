@@ -16,11 +16,11 @@ class Fleet extends Application
 
 	public function index()
 	{
-		// this is the view we want shown
+		// this is the view we want to show
 		$this->data['pagebody'] = 'fleet';
 		
 		// build the list of plans, to pass on to our view
-		$source = $this->fleets->all();
+		$source = $this->fleet_model->all();
 
 		// pass on the data to present, as the "airplanes" view parameter
 		$this->data['airplanes'] = $source;	
@@ -28,23 +28,18 @@ class Fleet extends Application
 		$this->render(); 
 	}
 	
-	/**
-     * Show just one airplane
-     */
     public function show($key)
     {		
-		// this is the view we want shown
+		// this is the view we want to show
 		$this->data['pagebody'] = 'airplane';
 
-		// build the list of plans, to pass on to our view
-		$source = $this->fleets->get($key);
+		// build the detail of a plane, to pass on to our view
+		$source =$this->fleet_model->get($key);
 
-		// pass on the data to present, as the "airplanes" view parameter
-		$this->data['airplanes'] = $source;
-		
 		// pass on the data to present, adding the author record's fields
 		$this->data = array_merge($this->data, (array) $source);
 
 		$this->render();
     }
+
 }

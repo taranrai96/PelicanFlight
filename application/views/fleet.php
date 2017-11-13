@@ -11,7 +11,7 @@
 	</tr>
     {airplanes}
 	<tr>
-		<td><a href="/fleet/show/{key}">{vehicleID}</a></td>
+		<td><a href="/fleet/show/{vehicleID}">{vehicleID}</a></td>
 		<td>{model}</td>
 		<td>{seats}</td>
 		<td>{reach}</td>

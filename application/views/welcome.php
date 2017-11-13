@@ -14,10 +14,5 @@
 			<li type="circle">Destination 3: YXC</li>
 		</ul>
 	</div>
-	<div>
-		<h4>Info JSON format</h4>
-		<li type="circle"><a href="/info/fleetjson">Fleet</a></li>
-		<li type="circle"><a href="/info/flightjson">Flight</a></li>
-	</div>
 </div>
 

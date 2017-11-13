@@ -85,5 +85,64 @@ Release Date: Oct 08, 2017(Chris Kwon)
 - Combined index() methods from Fleets.php and Flights.php controllers into Info.php
 - Updated Welcome.php to display json data
 
+## Version 0.1.0 (Assignment 2 start)
+
+Release Date: Nov 09, 2017(Taran Rai)
+
+- Fixed web application according to the feedback provided
+- Updated changelog.md
+
+## Version 0.1.1
+
+Release Date: November 9, 2017(Benjamin Wang)
+
+- Added fleet.csv and flights.csv files
+- Updated changelog.md
+
+## Version 0.1.2
+
+Release Date: November 11, 2017(Chris Kwon)
+
+- Updated Fleet_Model.php and Flight_Model.php to retrieve data from CSV files
+- Updated Welcome.php to retrieve numPlane and numFlight
+- Created API_Model.php to retrieve live data from WACKY Server
+- Added CSV_Model.php, DataMapper.php, Entity.php, Memory_Model.php, RDB_Model.php in core folder
+- Added _menubar.php in views folder
+- Patch needed in fleet page to display the Vehicle Information for selected VehicleID
+- Updated changelog.md
+
+## Version 0.1.3
+Release Date: November 11, 2017(Nelson Guo)
+
+- Updated constans.php to have admin role and guest role
+- Updated fleet.php,_menubar.php,fleet.phh,template.php and welcome.php to fix some bugs
+- Added new file Roles.php 
+- Updated My_controller.php to set up different role for current user
+- Updated Fleet_model.php and Flight_model.php to take out the unnecessary comments
+
+## Version 0.1.4
+Release Date: November 12, 2017(Nelson Guo)
+
+- Updated application/config/config.php
+- Added application/controllers/Mtce.php
+- Updated application/core/Memory_Model.php
+- Updated application/models/Fleet_model.php
+- Updated application/views/fleet.php
+- Added application/views/itemadd.php
+- Added application/views/itemedit.php
+- Added application/views/itemlist.php
+- Added application/views/itemnav.php
+- Added application/views/oneitem.php
+- Added application/views/oneitemx.php
+- Updated changelog.md
+
+## Version 0.1.5
+Release Date: November 12, 2017(Chris Kwon)
+
+- Added Flight Maintenance Page
+- Updated changelog.md
+
+
+
 
 

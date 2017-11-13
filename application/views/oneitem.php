@@ -1,0 +1,9 @@
+<tr>
+	<td>{vehicleID}</td>
+	<td>{model}</td>
+	<td>{seats}</td>
+	<td>{reach}</td>
+	<td>{cruise}</td>
+	<td>{takeoff}</td>
+	<td>{hourly}</td>
+</tr>
