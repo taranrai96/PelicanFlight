@@ -150,6 +150,7 @@ class Memory_Model extends CI_Model implements DataMapper
 	function get($key, $key2 = null)
 	{
 		return (isset($this->_data[$key])) ? $this->_data[$key] : null;
+
 	}
 
 	// Update a record in the collection

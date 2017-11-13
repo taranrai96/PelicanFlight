@@ -111,5 +111,17 @@ Release Date: November 11, 2017(Chris Kwon)
 - Patch needed in fleet page to display the Vehicle Information for selected VehicleID
 - Updated changelog.md
 
+## Version 0.1.3
+Release Date: November 11, 2017(Nelson Guo)
+
+- Updated constans.php to have admin role and guest role
+- Updated fleet.php,_menubar.php,fleet.phh,template.php and welcome.php to fix some bugs
+- Added new file Roles.php 
+- Updated My_controller.php to set up different role for current user
+- Updated Fleet_model.php and Flight_model.php to take out the unnecessary comments
+ 
+
+
+
 
 
