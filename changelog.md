@@ -148,7 +148,6 @@ Release Date: November 12, 2017(Benjamin Wang)
 - Added Flight search page
 - Updated changelog.md
 
-
 ## Version 0.1.7
 Release Date: November 12, 2017(Judy Zhu)
 
