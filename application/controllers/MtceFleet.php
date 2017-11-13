@@ -2,7 +2,7 @@
 
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Mtce extends Application {
+class MtceFleet extends Application {
 
 
 	private $items_per_page = 10;
@@ -90,7 +90,7 @@ class Mtce extends Application {
 		{
 
 			if ($id == null)
-				redirect('/mtce');
+				redirect('/mtceFleet');
 			$fleet = $this->fleet_model->get($id);
 
 			$this->load->library('session');
@@ -178,7 +178,7 @@ class Mtce extends Application {
 		function cancel() {
 			$this->load->library('session');
 			$this->session->unset_userdata('task');
-			redirect('/mtce');
+			redirect('/mtceFleet');
 		}
 		
 		// Delete this item altogether
@@ -189,7 +189,7 @@ class Mtce extends Application {
 			$task = $this->fleet_model->get($dto->vehicleID);
 			$this->fleet_model->delete($task->vehicleID);
 			$this->session->unset_userdata('task');
-			redirect('/mtce');
+			redirect('/mtceFleet');
 		}
 
 }

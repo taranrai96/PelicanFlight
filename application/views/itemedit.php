@@ -1,5 +1,5 @@
-<h1>Task # {id}</h1>
-<form role="form" action="/mtce/submit" method="post">
+<h1>Fleet # {id}</h1>
+<form role="form" action="/mtceFleet/submit" method="post">
     {fvehicleID}
     {fmodel}
     {fseats}
@@ -10,6 +10,6 @@
     <br/>
     {zsubmit}
 </form>
-<a href="/mtce/cancel"><input type="button" value="Cancel the current edit"/></a>
-<a href="/mtce/delete"><input type="button" value="Delete this todo item"/></a>
+<a href="/mtceFleet/cancel"><input type="button" value="Cancel the current edit"/></a>
+<a href="/mtceFleet/delete"><input type="button" value="Delete this todo item"/></a>
     {error}

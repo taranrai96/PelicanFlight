@@ -119,7 +119,28 @@ Release Date: November 11, 2017(Nelson Guo)
 - Added new file Roles.php 
 - Updated My_controller.php to set up different role for current user
 - Updated Fleet_model.php and Flight_model.php to take out the unnecessary comments
- 
+
+## Version 0.1.4
+Release Date: November 12, 2017(Nelson Guo)
+
+- Updated application/config/config.php
+- Added application/controllers/Mtce.php
+- Updated application/core/Memory_Model.php
+- Updated application/models/Fleet_model.php
+- Updated application/views/fleet.php
+- Added application/views/itemadd.php
+- Added application/views/itemedit.php
+- Added application/views/itemlist.php
+- Added application/views/itemnav.php
+- Added application/views/oneitem.php
+- Added application/views/oneitemx.php
+- Updated changelog.md
+
+## Version 0.1.5
+Release Date: November 12, 2017(Chris Kwon)
+
+- Added Flight Maintenance Page
+- Updated changelog.md
 
 
 

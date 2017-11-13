@@ -1,5 +1,5 @@
 <tr>
-	<td><a href="/mtce/edit/{vehicleID}"><input type="button" value="{vehicleID}"/></a></td>
+	<td><a href="/mtceFleet/edit/{vehicleID}"><input type="button" value="{vehicleID}"/></a></td>
 	<td>{model}</td>
 	<td>{seats}</td>
 	<td>{reach}</td>
